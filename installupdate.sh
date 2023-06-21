@@ -26,7 +26,13 @@ sudo cp opti-sway-wayland /usr/bin/
 
 sudo chmod +x /usr/bin/opti-sway-wayland
 
-echo "DONE! Installation/Update completed."
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ "  
+echo "#################################################################"
+echo "Installation/Update completed."
 echo "#################################################################"
 echo "To use opti-sway-wayland, execute the following command: opti-sway-wayland"
 echo "#################################################################"
