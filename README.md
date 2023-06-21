@@ -6,7 +6,7 @@
 
 - opti-sway-wayland-version: june 2023
 
-- build-latest: 0.0.1
+- build-latest: 0.0.2
 
 - opti-sway-wayland is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with opti-sway-wayland, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of opti-sway-wayland to add additional features.
 
@@ -50,7 +50,7 @@
 
 # Project Status
 
-- The opti-sway-wayland project is currently in development. The latest stable version is 0.0.1. We aim to provide regular updates and add more features in the future.
+- The opti-sway-wayland project is currently in development. The latest stable version is 0.0.2. We aim to provide regular updates and add more features in the future.
 
 # License
 
