@@ -76,8 +76,13 @@ for file in $user_autostart_dir*; do
     fi
 done
 
+echo " ██████   ██████  ███    ██ ███████ ██ "
+echo " ██   ██ ██    ██ ████   ██ ██      ██ "
+echo " ██   ██ ██    ██ ██ ██  ██ █████   ██ "
+echo " ██   ██ ██    ██ ██  ██ ██ ██         "
+echo " ██████   ██████  ██   ████ ███████ ██ "  
 echo "#################################################################"  
-echo "DONE! Optimized SWAY"
+echo "Optimized SWAY"
 echo "#################################################################"  
 read -p "To apply the changes, you need to restart system. (y/n): " confirm
                 
