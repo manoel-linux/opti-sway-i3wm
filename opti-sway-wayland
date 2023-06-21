@@ -29,6 +29,12 @@ echo "opti-sway-wayland-github: https://github.com/manoel-linux/opti-sway-waylan
 echo "#################################################################"
 
 if [[ $EUID -eq 0 ]]; then
+echo " ███████ ██████  ██████   ██████  ██████  ██ "
+echo " ██      ██   ██ ██   ██ ██    ██ ██   ██ ██ "
+echo " █████   ██████  ██████  ██    ██ ██████  ██ "
+echo " ██      ██   ██ ██   ██ ██    ██ ██   ██    "
+echo " ███████ ██   ██ ██   ██  ██████  ██   ██ ██ "                                                                                        
+echo "#################################################################"
 echo "This script should not be executed as a superuser or sudo."
 echo "Please run it without superuser privileges or sudo."
 echo "#################################################################"
