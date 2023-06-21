@@ -4,6 +4,8 @@
 
 - Starting from version 0.0.1, executing opti-sway-wayland as a superuser or with sudo privileges has been blocked. It can only be executed without superuser or sudo privileges
 
+- Support for the distro: Void Linux Ubuntu/Debian Arch/Artix/Manjaro
+
 - opti-sway-wayland-version: june 2023
 
 - build-latest: 0.0.2
