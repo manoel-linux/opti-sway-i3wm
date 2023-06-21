@@ -1,0 +1,93 @@
+#!/bin/bash
+
+if [[ "$XDG_SESSION_TYPE" != "wayland" ]]; then
+echo "This script can only be executed in a Wayland environment."
+exit 1
+fi
+
+if ! command -v dbus-daemon &> /dev/null; then
+echo "#################################################################"
+echo "ERROR: This script requires DBus to be executed."
+echo "Make sure you have DBus installed on your system."
+echo "DBus is required for inter-process communication."
+echo "#################################################################"
+exit 1
+fi
+
+clear
+echo "#################################################################"
+echo "opti-sway-wayland-version: june 2023"
+echo "#################################################################"
+echo " ███████ ██     ██  █████  ██    ██ "
+echo " ██      ██     ██ ██   ██  ██  ██  "
+echo " ███████ ██  █  ██ ███████   ████   "
+echo "      ██ ██ ███ ██ ██   ██    ██    "
+echo " ███████  ███ ███  ██   ██    ██    "                                                                                             
+echo "#################################################################"
+echo "build-latest: 0.0.1"
+echo "opti-sway-wayland-github: https://github.com/manoel-linux/opti-sway-wayland"
+echo "#################################################################"
+
+if [[ $EUID -eq 0 ]]; then
+echo "This script should not be executed as a superuser."
+echo "Please run it without superuser privileges."
+echo "#################################################################"
+exit 1
+fi
+
+read -p "This action may have unintended consequences. Are you sure you want to continue? (y/n): " second_confirm
+echo "#################################################################"
+if [[ "$second_confirm" == "y" || "$second_confirm" == "Y" ]]; then
+read -p "WARNING: This script is provided 'AS IS', without any warranties of any kind. The user assumes full responsibility for executing this script and any resulting consequences. We recommend backing up your data before proceeding. If the script does not cause any apparent issues, you can use the PC normally. Are you sure you want to proceed? (y/n): " third_confirm
+echo "#################################################################"
+if [[ "$third_confirm" == "y" || "$third_confirm" == "Y" ]]; then
+echo "Proceeding with the changes..."
+else
+echo "Action canceled by the user."
+echo "#################################################################"
+exit 1
+fi
+else
+echo "Action canceled by the user."
+echo "#################################################################"
+exit 1
+fi
+
+system_autostart_dir="/etc/xdg/autostart/"
+user_autostart_dir="$HOME/.config/autostart/"
+
+keep_the_files=(
+
+)
+
+keep_the_files_home=(
+
+)
+
+for file in $system_autostart_dir*; do
+    if [[ ! " ${keep_the_files[@]} " =~ " ${file##*/} " ]]; then
+        sudo rm "$file"
+    fi
+done
+
+for file in $user_autostart_dir*; do
+    if [[ ! " ${keep_the_files_home[@]} " =~ " ${file##*/} " ]]; then
+        sudo rm "$file"
+    fi
+done
+
+echo "#################################################################"  
+echo "DONE! Optimized SWAY"
+echo "#################################################################"  
+read -p "To apply the changes, you need to restart system. (y/n): " confirm
+                
+if [[ "$confirm" == "y" || "$confirm" == "Y" ]]; then
+echo "#################################################################"
+echo "Restarting the system..."    
+echo "#################################################################"
+sudo reboot
+else
+echo "#################################################################"
+echo "Restart canceled."
+echo "#################################################################"
+fi
