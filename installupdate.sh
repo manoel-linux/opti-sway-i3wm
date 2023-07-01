@@ -6,7 +6,7 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "opti-sway-wayland-installer: june 2023"
+echo "opti-sway-wayland-installer: july 2023"
 echo "#################################################################"
 echo " ███████ ██     ██  █████  ██    ██ "
 echo " ██      ██     ██ ██   ██  ██  ██  "
