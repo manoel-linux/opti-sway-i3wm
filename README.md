@@ -6,7 +6,7 @@
 
 - Support for the distro: Void Linux Ubuntu/Debian Arch/Artix/Manjaro
 
-- opti-sway-wayland-version: june 2023
+- opti-sway-wayland-version: july 2023
 
 - build-latest: 0.0.2
 
