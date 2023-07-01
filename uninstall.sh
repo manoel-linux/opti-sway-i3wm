@@ -3,7 +3,7 @@
 
 clear
 echo "#################################################################"
-echo "opti-sway-wayland-uninstaller: june 2023"
+echo "opti-sway-wayland-uninstaller: july 2023"
 echo "#################################################################"
 echo " ███████ ██     ██  █████  ██    ██ "
 echo " ██      ██     ██ ██   ██  ██  ██  "
