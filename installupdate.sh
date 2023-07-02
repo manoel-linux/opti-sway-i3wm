@@ -6,15 +6,15 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "opti-sway-wayland-installer: july 2023"
+echo "opti-sway-i3wm-installer: july 2023"
 echo "#################################################################"
-echo " ███████ ██     ██  █████  ██    ██ "
-echo " ██      ██     ██ ██   ██  ██  ██  "
-echo " ███████ ██  █  ██ ███████   ████   "
-echo "      ██ ██ ███ ██ ██   ██    ██    "
-echo " ███████  ███ ███  ██   ██    ██    "                                                                                             
+echo " ███████  ██████ ██████  ██ ██████  ████████ "
+echo " ██      ██      ██   ██ ██ ██   ██    ██    "
+echo " ███████ ██      ██████  ██ ██████     ██    "
+echo "      ██ ██      ██   ██ ██ ██         ██    "
+echo " ███████  ██████ ██   ██ ██ ██         ██    "                                                                                                
 echo "#################################################################"
-echo "opti-sway-wayland-github: https://github.com/manoel-linux/opti-sway-wayland"
+echo "opti-sway-i3wm-github: https://github.com/manoel-linux/opti-sway-i3wm"
 echo "#################################################################"
 
 
@@ -51,9 +51,9 @@ clear
 echo "#################################################################"
 echo "Connected to the internet. Running the script..."
 echo "#################################################################"
-echo "(1)> (Install) the opti-sway-wayland version of Void-Linux"
-echo "(2)> (Install) the opti-sway-wayland version of Ubuntu/Debian"
-echo "(3)> (Install) the opti-sway-wayland version of Arch-Artix-Manjaro"
+echo "(1)> (Install) the opti-sway-i3wm version of Void-Linux"
+echo "(2)> (Install) the opti-sway-i3wm version of Ubuntu/Debian"
+echo "(3)> (Install) the opti-sway-i3wm version of Arch-Artix-Manjaro"
 echo "(4)> (Exit)"
 echo "#################################################################"
 
@@ -109,11 +109,11 @@ fi
 
 clear
 
-sudo rm /usr/bin/opti-sway-wayland
+sudo rm /usr/bin/opti-sway-i3wm
 
-sudo cp opti-sway-wayland /usr/bin/
+sudo cp opti-sway-i3wm /usr/bin/
 
-sudo chmod +x /usr/bin/opti-sway-wayland
+sudo chmod +x /usr/bin/opti-sway-i3wm
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -123,7 +123,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "Installation/Update completed."
 echo "#################################################################"
-echo "To use opti-sway-wayland, execute the following command: opti-sway-wayland"
+echo "To use opti-sway-i3wm, execute the following command: opti-sway-i3wm"
 echo "#################################################################"
 read -rsn1 -p "press Enter to return to the main menu
 #################################################################" key
@@ -166,11 +166,11 @@ fi
 
 clear
 
-sudo rm /usr/bin/opti-sway-wayland
+sudo rm /usr/bin/opti-sway-i3wm
 
-sudo cp opti-sway-wayland /usr/bin/
+sudo cp opti-sway-i3wm /usr/bin/
 
-sudo chmod +x /usr/bin/opti-sway-wayland
+sudo chmod +x /usr/bin/opti-sway-i3wm
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -180,7 +180,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "Installation/Update completed."
 echo "#################################################################"
-echo "To use opti-sway-wayland, execute the following command: opti-sway-wayland"
+echo "To use opti-sway-i3wm, execute the following command: opti-sway-i3wm"
 echo "#################################################################"
 read -rsn1 -p "press Enter to return to the main menu
 #################################################################" key
@@ -222,11 +222,11 @@ fi
 
 clear
 
-sudo rm /usr/bin/opti-sway-wayland
+sudo rm /usr/bin/opti-sway-i3wm
 
-sudo cp opti-sway-wayland /usr/bin/
+sudo cp opti-sway-i3wm /usr/bin/
 
-sudo chmod +x /usr/bin/opti-sway-wayland
+sudo chmod +x /usr/bin/opti-sway-i3wm
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -236,7 +236,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "Installation/Update completed."
 echo "#################################################################"
-echo "To use opti-sway-wayland, execute the following command: opti-sway-wayland"
+echo "To use opti-sway-i3wm, execute the following command: opti-sway-i3wm"
 echo "#################################################################"
 read -rsn1 -p "press Enter to return to the main menu
 #################################################################" key
