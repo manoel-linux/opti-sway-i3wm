@@ -1,36 +1,38 @@
-# opti-sway-wayland
+# opti-sway-i3wm
 
 - Use at your own risk
 
-- Starting from version 0.0.1, executing opti-sway-wayland as a superuser or with sudo privileges has been blocked. It can only be executed without superuser or sudo privileges
+- Starting from version 0.0.1, executing opti-sway-i3wm as a superuser or with sudo privileges has been blocked. It can only be executed without superuser or sudo privileges
+
+- From version 0.0.3 onwards, it now includes support for i3wm
 
 - Support for the distro: Void Linux Ubuntu/Debian Arch/Artix/Manjaro
 
-- opti-sway-wayland-version: july 2023
+- opti-sway-i3wm-version: july 2023
 
-- build-latest: 0.0.2
+- build-latest: 0.0.3
 
-- opti-sway-wayland is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with opti-sway-wayland, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of opti-sway-wayland to add additional features.
+- opti-sway-i3wm is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with opti-sway-i3wm, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of opti-sway-i3wm to add additional features.
 
 ## Installation
 
-- To install opti-sway-wayland, follow the steps below:
+- To install opti-sway-i3wm, follow the steps below:
 
 # 1. Clone this repository by running the following command
 
-- git clone https://github.com/manoel-linux/opti-sway-wayland.git
+- git clone https://github.com/manoel-linux/opti-sway-i3wm.git
 
-# 2. To install the opti-sway-wayland script, follow these steps
+# 2. To install the opti-sway-i3wm script, follow these steps
 
 - chmod a+x `installupdate.sh`
 
 - sudo `./installupdate.sh`
 
-- When installing opti-sway-wayland for the first time, you may encounter an error "`rm /usr/bin/opti-sway-wayland`" if the file doesn't exist. This removal command is part of - - the update process, but during the initial installation, the opti-sway-wayland file is not yet present in the `/usr/bin/` directory. Therefore, you can safely ignore -- this error as it will not affect the installation of opti-sway-wayland. The script will proceed to copy the opti-sway-wayland file to the `/usr/bin/` directory and set the ----- correct permissions.
+- When installing opti-sway-i3wm for the first time, you may encounter an error "`rm /usr/bin/opti-sway-i3wm`" if the file doesn't exist. This removal command is part of - - the update process, but during the initial installation, the opti-sway-i3wm file is not yet present in the `/usr/bin/` directory. Therefore, you can safely ignore -- this error as it will not affect the installation of opti-sway-i3wm. The script will proceed to copy the opti-sway-i3wm file to the `/usr/bin/` directory and set the ----- correct permissions.
 
-# 3. Execute the opti-sway-wayland script
+# 3. Execute the opti-sway-i3wm script
 
-- `opti-sway-wayland`
+- `opti-sway-i3wm`
 
 # For uninstall
 
@@ -54,12 +56,12 @@
 
 # Project Status
 
-- The opti-sway-wayland project is currently in development. The latest stable version is 0.0.2. We aim to provide regular updates and add more features in the future.
+- The opti-sway-i3wm project is currently in development. The latest stable version is 0.0.3. We aim to provide regular updates and add more features in the future.
 
 # License
 
-- opti-sway-wayland is licensed under the MIT License. See the LICENSE file for more information.
+- opti-sway-i3wm is licensed under the MIT License. See the LICENSE file for more information.
 
 # Acknowledgements
 
-- We would like to thank the open-source community for their support and the libraries used in the development of opti-sway-wayland.
+- We would like to thank the open-source community for their support and the libraries used in the development of opti-sway-i3wm.
