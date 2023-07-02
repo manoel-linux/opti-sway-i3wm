@@ -3,15 +3,15 @@
 
 clear
 echo "#################################################################"
-echo "opti-sway-wayland-uninstaller: july 2023"
+echo "opti-sway-i3wm-uninstaller: july 2023"
 echo "#################################################################"
-echo " ███████ ██     ██  █████  ██    ██ "
-echo " ██      ██     ██ ██   ██  ██  ██  "
-echo " ███████ ██  █  ██ ███████   ████   "
-echo "      ██ ██ ███ ██ ██   ██    ██    "
-echo " ███████  ███ ███  ██   ██    ██    "                                                                                             
+echo " ███████  ██████ ██████  ██ ██████  ████████ "
+echo " ██      ██      ██   ██ ██ ██   ██    ██    "
+echo " ███████ ██      ██████  ██ ██████     ██    "
+echo "      ██ ██      ██   ██ ██ ██         ██    "
+echo " ███████  ██████ ██   ██ ██ ██         ██    "                                                                                                
 echo "#################################################################"
-echo "opti-sway-wayland-github: https://github.com/manoel-linux/opti-sway-wayland"
+echo "opti-sway-i3wm-github: https://github.com/manoel-linux/opti-sway-i3wm"
 echo "#################################################################"
 
 
@@ -27,7 +27,7 @@ echo "#################################################################"
 exit 1
 fi
 
-sudo rm /usr/bin/opti-sway-wayland
+sudo rm /usr/bin/opti-sway-i3wm
 
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
