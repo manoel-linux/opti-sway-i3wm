@@ -19,7 +19,7 @@ echo " ███████ ██      ██████  ██ ████
 echo "      ██ ██      ██   ██ ██ ██         ██    "
 echo " ███████  ██████ ██   ██ ██ ██         ██    "                                                                                                                                                                                
 echo "#################################################################"
-echo "build-latest: 0.0.3"
+echo "build-latest: 0.0.4"
 echo "opti-sway-i3wm-github: https://github.com/manoel-linux/opti-sway-i3wm"
 echo "#################################################################"
 
@@ -58,7 +58,7 @@ system_autostart_dir="/etc/xdg/autostart/"
 user_autostart_dir="$HOME/.config/autostart/"
 
 keep_the_files=(
-
+ "autorandr.desktop"
 )
 
 keep_the_files_home=(
