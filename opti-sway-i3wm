@@ -59,6 +59,7 @@ user_autostart_dir="$HOME/.config/autostart/"
 
 keep_the_files=(
  "autorandr.desktop"
+ "wine-desktop-unofficial*.desktop"
 )
 
 keep_the_files_home=(
