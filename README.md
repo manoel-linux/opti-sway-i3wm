@@ -1,11 +1,5 @@
 # opti-sway-i3wm
 
-- Use at your own risk
-
-- Starting from version 0.0.1, executing opti-sway-i3wm as a superuser or with sudo privileges has been blocked. It can only be executed without superuser or sudo privileges
-
-- From version 0.0.3 onwards, it now includes support for i3wm
-
 - opti-sway-i3wm-version: july 2023
 
 - build-latest: 0.0.4
@@ -13,6 +7,12 @@
 - Support for the distro: Void-Linux/Ubuntu/Debian/Arch/Artix/Manjaro
 
 - If you are using a distribution based on Ubuntu, Debian, or Arch, the script will work without any issues.
+
+- Use at your own risk
+
+- Starting from version 0.0.1, executing opti-sway-i3wm as a superuser or with sudo privileges has been blocked. It can only be executed without superuser or sudo privileges
+
+- From version 0.0.3 onwards, it now includes support for i3wm
 
 - opti-sway-i3wm is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with opti-sway-i3wm, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of opti-sway-i3wm to add additional features.
 
