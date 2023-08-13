@@ -105,9 +105,14 @@ clear
 
 sudo rm /usr/bin/opti-sway-i3wm
 
+clear
+
 sudo cp opti-sway-i3wm /usr/bin/
 
 sudo chmod +x /usr/bin/opti-sway-i3wm
+
+clear
+
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -163,9 +168,14 @@ clear
 
 sudo rm /usr/bin/opti-sway-i3wm
 
+clear
+
 sudo cp opti-sway-i3wm /usr/bin/
 
 sudo chmod +x /usr/bin/opti-sway-i3wm
+
+clear
+
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
@@ -221,9 +231,14 @@ clear
 
 sudo rm /usr/bin/opti-sway-i3wm
 
+clear
+
 sudo cp opti-sway-i3wm /usr/bin/
 
 sudo chmod +x /usr/bin/opti-sway-i3wm
+
+clear
+
 echo "#################################################################"
 echo " ██████   ██████  ███    ██ ███████ ██ "
 echo " ██   ██ ██    ██ ████   ██ ██      ██ "
