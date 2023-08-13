@@ -30,8 +30,6 @@
 
 - sudo `./installupdate.sh`
 
-- When installing opti-sway-i3wm for the first time, you may encounter an error "`rm /usr/bin/opti-sway-i3wm`" if the file doesn't exist. This removal command is part of - - the update process, but during the initial installation, the opti-sway-i3wm file is not yet present in the `/usr/bin/` directory. Therefore, you can safely ignore -- this error as it will not affect the installation of opti-sway-i3wm. The script will proceed to copy the opti-sway-i3wm file to the `/usr/bin/` directory and set the ----- correct permissions.
-
 # 3. Execute the opti-sway-i3wm script
 
 - `opti-sway-i3wm`
