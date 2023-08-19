@@ -11,16 +11,16 @@ fi
 
 clear
 echo "#################################################################"
-echo "opti-sway-i3wm-version: july 2023"
+echo "opti-sway-i3wm-version >> (aug 2023)"
 echo "#################################################################"
 echo " ███████  ██████ ██████  ██ ██████  ████████ "
 echo " ██      ██      ██   ██ ██ ██   ██    ██    "
 echo " ███████ ██      ██████  ██ ██████     ██    "
 echo "      ██ ██      ██   ██ ██ ██         ██    "
-echo " ███████  ██████ ██   ██ ██ ██         ██    "                                                                                                                                                                                
+echo " ███████  ██████ ██   ██ ██ ██         ██    "   
 echo "#################################################################"
-echo "build-latest: 0.0.4"
-echo "opti-sway-i3wm-github: https://github.com/manoel-linux/opti-sway-i3wm"
+echo "build-latest >> (0.0.4)"
+echo "opti-sway-i3wm-github >> (https://github.com/manoel-linux/opti-sway-i3wm)"
 echo "#################################################################"
 
 if [[ $EUID -eq 0 ]]; then
