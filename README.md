@@ -1,6 +1,6 @@
 # opti-sway-i3wm
 
-- opti-sway-i3wm-version: july 2023
+- opti-sway-i3wm-version: aug 2023
 
 - build-latest: 0.0.4
 
