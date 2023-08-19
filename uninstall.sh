@@ -1,19 +1,17 @@
 #!/bin/bash
 
-
 clear
 echo "#################################################################"
-echo "opti-sway-i3wm-uninstaller: july 2023"
+echo "opti-sway-i3wm-uninstaller >> (aug 2023)"
 echo "#################################################################"
 echo " ███████  ██████ ██████  ██ ██████  ████████ "
 echo " ██      ██      ██   ██ ██ ██   ██    ██    "
 echo " ███████ ██      ██████  ██ ██████     ██    "
 echo "      ██ ██      ██   ██ ██ ██         ██    "
-echo " ███████  ██████ ██   ██ ██ ██         ██    "                                                                                                
+echo " ███████  ██████ ██   ██ ██ ██         ██    "   
 echo "#################################################################"
-echo "opti-sway-i3wm-github: https://github.com/manoel-linux/opti-sway-i3wm"
+echo "opti-sway-i3wm-github >> (https://github.com/manoel-linux/opti-sway-i3wm)"
 echo "#################################################################"
-
 
 if [[ $EUID -ne 0 ]]; then
 echo " ███████ ██████  ██████   ██████  ██████  ██ "
