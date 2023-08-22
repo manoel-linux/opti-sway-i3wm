@@ -121,7 +121,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Installation/Update completed)"
 echo "#################################################################"
-echo "To use opti-sway-i3wm, execute the following command: opti-sway-i3wm"
+echo "(To use opti-sway-i3wm, execute the following command >> opti-sway-i3wm)"
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
@@ -184,7 +184,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Installation/Update completed)"
 echo "#################################################################"
-echo "To use opti-sway-i3wm, execute the following command: opti-sway-i3wm"
+echo "(To use opti-sway-i3wm, execute the following command >> opti-sway-i3wm)"
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
@@ -247,7 +247,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Installation/Update completed)"
 echo "#################################################################"
-echo "To use opti-sway-i3wm, execute the following command: opti-sway-i3wm"
+echo "(To use opti-sway-i3wm, execute the following command >> opti-sway-i3wm)"
 echo "#################################################################"
 read -rsn1 -p "(press Enter to return to the main menu)
 #################################################################" key
